@@ -5,4 +5,10 @@
  let complete_name = name.replace("_"," ")
  let text = "I love cats. Cats are very easy to love. Cats are very popular."
  const iterator = text.matchAll("Cats");
- console.log(Array.from(iterator))
+
+ let x= "123"
+ let y = x.toExponential()
+ console.log(x)
+ console.log(y)
+
+ console.log(typeof(y))
