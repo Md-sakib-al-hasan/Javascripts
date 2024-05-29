@@ -1,14 +1,4 @@
- let name = "sakib_al_hasan"
 
- let first_name = name.slice(0,5)
- let Last_name = name.split("_")
- let complete_name = name.replace("_"," ")
- let text = "I love cats. Cats are very easy to love. Cats are very popular."
- const iterator = text.matchAll("Cats");
-
- let x= "123"
- let y = x.toExponential()
- console.log(x)
- console.log(y)
-
- console.log(typeof(y))
+let text = "Hellooo World! Hello W3Schools!"; 
+let result = text.match(/lo?/g);
+console.log(result)
